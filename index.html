@@ -5,45 +5,45 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="STYLE/MainStyle.css" />
   </head>
-  
-  /*<meta name="viewport" content="width=device-width, initial-scale=1.0">*/
 
   <body>
     <h1><a href="index.html" id="landingPage">Caleb Philipsek</a></h1>
     <h2 id="workIP">This is a WIP page. I'm looking forward to revealing an About Me, My Projects and a personal photo and a few things that will hopefully reasonably demonstrate my knowledge of programming</h2>
     
     <div id="nav">
-      <div id="navButton">
+      <button id="navButton">
         <a href="https://github.com/calebphilipsek" id="githubLink">My Github Page</a>
-      </div>
-      <div id="navButton">
+      </button>
+      <button id="navButton">
         <a href="HTML/myProjects.html" id="projectsPage">My Projects</a>
-      </div>
+      </button>
     </div>
 
     <div class="container">
       
       <div id="aboutMe">
         <h1>About Me</h1>
+        <img id="personalPhoto" src="IMAGES/personalPhotoPlaceholder.jpg" alt="placeholder photo of me">
         <p>   My name is Caleb Philipsek, I was born and raised in Minnesota. 
             More specifically I was raised in a quaint suburb of the Twin Cities called Apple valley.
             I lived within walking distance of a bowling alley that I loved to frequent in the summers.
             I've traveled throughout many places in the US, either with my family or through the Boy Scouts of America. 
             Some of my favorite trips consist of a trip to Seattle with my soon-to-be wife, family trips to Boston and Maryland and a scout trip to 
-            </br>
+          </br>
+          </br>
             I followed my sisters to Montana State University where I attained a BS in Computer Science in May 2024. 
             I graduated with a 3.0 GPA but I really hit my stride in my last 2 semesters of school when I fell in love with the more unstructured and application-based classes, such as my Human Computer Interaction, Compilers Capstone and Computational Biology classes.
             I was able to finally link the theory I was learning to how that theory is applied and why it should be applied
         </p>
   
       </div>
-      <div id="photoBox">
+      <!-- <div id="photoBox">
         <img id="personalPhoto" src="IMAGES/personalPhotoPlaceholder.jpg" alt="placeholder photo of me">
-      </div>
+      </div> -->
       
     </div>
     <div id="personalEducation">
-      <p>
+      <p id="educationPreface">
         Here are some of my notable and favourite courses I have taken:
       </p>
       <table>
@@ -54,22 +54,22 @@
         </tr>
         <tr>
           <td>Computational Biology</td>
-          <td>A</td>
+          <td id="grade">A</td>
           <td>Learned and applied linear-time and faster search algorithms meant to search, align and compare strings of genes</td>
         </tr>
         <tr>
           <td>Compilers</td>
-          <td>A</td>
+          <td id="grade">A</td>
           <td>Capstone project where we implemented both a compiler and transpiler for our own programming language, using a test-driven approach</td>
         </tr>
         <tr>
           <td>Human Computer Interaction</td>
-          <td>A</td>
+          <td id="grade">A</td>
           <td>Learned and applied different design strategies and concepts to various software designs, including mock-ups of an improved version of an enterprise application I use through work</td>
         </tr>
         <tr>
           <td>Computer Systems</td>
-          <td>A</td>
+          <td id="grade">A</td>
           <td>Learned computer architecture in addition to best design practices through a project to implement a primitive computer called a Little Man Stack Machine</td>
         </tr>
       </table>

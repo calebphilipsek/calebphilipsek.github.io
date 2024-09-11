@@ -1,7 +1,35 @@
+/* This is the style sheet for the main page of my personal website */
+
 html {
     font-family: sans-serif;
 }
+
+body {
+    background-color: cornflowerblue;
+    width: device-width;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+}
+
 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#aboutMe {
+    margin-left: 100px;
+}
+
+#personalPhoto {
+    width:80%;
+    margin-left: 100px;
+}
+/* .container {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -21,11 +49,7 @@ td {
     background-color: #6ab099;
     color: #e0f6ef;
 }
-h1 {
-    color: darkslategrey;
-    text-align: center;
-    font-size: 3rem;
-}
+
 #workIP {
     text-align: center;
     background-color: yellow;
@@ -55,4 +79,4 @@ img:hover {
 }
 #githubLink {
     margin-left: 20px;
-}
+} */

@@ -3,125 +3,77 @@
   <head>
     <title>Caleb Philipsek's Website</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="styles/MainStyle.css" />
+    <link rel="stylesheet" type="text/css" href="STYLES/MainStyle.css" />
   </head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <body>
-    <h1>Caleb Philipsek</h1>
-    <h2 id="workIP">This is a WIP page started for a school project</h2>
-    <a href="https://github.com/calebphilipsek" id="githubLink">https://github.com/calebphilipsek</a>
-    <div class="container">
-      <div class="interestBox">
-        <h2>Questionnaire: Sleep Data</h2>
-        <form action="https://www.cs.montana.edu/users/h48c334/form-viewer.php" method="GET">
-          <label for="text">Enter your name</label>
-          <input type="text" id="text" name="userName">
-          <p></p>
-          <label for="hourSleep">How many hours do you sleep</label>
-          <select id="hourSleep" name="hourSleep">
-            <option value="1-4">1-4 Hours of Sleep</option>
-            <option value="5-8">5-8 Hours of Sleep</option>
-            <option value="9+">9+ Hours of Sleep</option>
-          </select>
-          <p><input type="submit" id="data" value="Name and Average Hours of Sleep"></p>
-        </form>
-        <h2>My interests are Dogs and More Dogs</h2>
-        <a href="https://en.wikipedia.org/wiki/Dog"><img src="images/pexels-charles-1851164.jpg" alt="Cute Dog"></a>
-        
-        <p><a href="https://en.wikipedia.org/wiki/Doctor_of_Medicine"><img src="images/pexels-sam-lion-5732461.jpg" alt="Dog in Labcoat"></a></p>
+    <h1><a href="index.html" id="landingPage">Caleb Philipsek</a></h1>
+    <h2 id="workIP">This is a WIP page. I'm looking forward to revealing an About Me, My Projects and a personal photo and a few things that will hopefully reasonably demonstrate my knowledge of programming</h2>
+    
+    <div id="nav">
+      <div id="navButton">
+        <a href="https://github.com/calebphilipsek" id="githubLink">My Github Page</a>
       </div>
-      <div class="tableBox">
-        <h2>Class Schedule</h2>
-        <table>
-          <tr>
-            <td></td>
-            <td>Monday</td>
-            <td class="tableTR">Tuesday</td>
-            <td>Wednesday</td>
-            <td class="tableTR">Thursday</td>
-            <td>Friday</td>
-          </tr>
-          <tr>
-            <td>9:00</td>
-            <td></td>
-            <td class="tableTR">CSCI 451</td>
-            <td></td>
-            <td class="tableTR">CSCI 451</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>10:00</td>
-            <td></td>
-            <td class="tableTR">CSCI 451</td>
-            <td></td>
-            <td class="tableTR">CSCI 451</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>11:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>12:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>1:00</td>
-            <td>CSCI 366</td>
-            <td></td>
-            <td>CSCI 366</td>
-            <td></td>
-            <td>CSCI 366</td>
-          </tr>
-          <tr>
-            <td>2:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>3:00</td>
-            <td></td>
-            <td class="tableTR">CSCI 476</td>
-            <td></td>
-            <td class="tableTR">CSCI 476</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>4:00</td>
-            <td>CSCI 331</td>
-            <td class="tableTR">CSCI 476</td>
-            <td>CSCI 331</td>
-            <td class="tableTR">CSCI 476</td>
-            <td>CSCI 331</td>
-          </tr>
-          <tr>
-            <td>5:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-        </table>
-        <h2>Previous Courses</h2>
-        <ul>
-          <li>CSCI 132</li>
-          <li>CSCI 232</li>
-          <li>CSCI 432</li>
-          <li>EELE 371</li>
-          <li>EELE 271</li>
-        </ul>
+      <div id="navButton">
+        <a href="HTML/myProjects.html" id="projectsPage">My Projects</a>
       </div>
     </div>
+
+    <div class="container">
+      
+      <div id="aboutMe">
+        <h1>About Me</h1>
+        <p>   My name is Caleb Philipsek, I was born and raised in Minnesota. 
+            More specifically I was raised in a quaint suburb of the Twin Cities called Apple valley.
+            I lived within walking distance of a bowling alley that I loved to frequent in the summers.
+            I've traveled throughout many places in the US, either with my family or through the Boy Scouts of America. 
+            Some of my favorite trips consist of a trip to Seattle with my soon-to-be wife, family trips to Boston and Maryland and a scout trip to 
+            </br>
+            I followed my sisters to Montana State University where I attained a BS in Computer Science in May 2024. 
+            I graduated with a 3.0 GPA but I really hit my stride in my last 2 semesters of school when I fell in love with the more unstructured and application-based classes, such as my Human Computer Interaction, Compilers Capstone and Computational Biology classes.
+            I was able to finally link the theory I was learning to how that theory is applied and why it should be applied
+        </p>
+  
+      </div>
+      <div id="photoBox">
+        <img id="personalPhoto" src="IMAGES/personalPhotoPlaceholder.jpg" alt="placeholder photo of me">
+      </div>
+      
+    </div>
+    <div id="personalEducation">
+      <p>
+        Here are some of my notable and favourite courses I have taken:
+      </p>
+      <table>
+        <tr>
+          <th>Course</th>
+          <th>Grade</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Computational Biology</td>
+          <td>A</td>
+          <td>Learned and applied linear-time and faster search algorithms meant to search, align and compare strings of genes</td>
+        </tr>
+        <tr>
+          <td>Compilers</td>
+          <td>A</td>
+          <td>Capstone project where we implemented both a compiler and transpiler for our own programming language, using a test-driven approach</td>
+        </tr>
+        <tr>
+          <td>Human Computer Interaction</td>
+          <td>A</td>
+          <td>Learned and applied different design strategies and concepts to various software designs, including mock-ups of an improved version of an enterprise application I use through work</td>
+        </tr>
+        <tr>
+          <td>Computer Systems</td>
+          <td>A</td>
+          <td>Learned computer architecture in addition to best design practices through a project to implement a primitive computer called a Little Man Stack Machine</td>
+        </tr>
+      </table>
+    </div>
   </body>
+  
 </html>
